@@ -1,0 +1,66 @@
+body {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 1.2;
+	text-align: center;
+	margin: 20px 0 20px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 1.2;
+	margin: 20px 0 10px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+span {
+	font-weight: bold;
+}
+
+section {
+	border-bottom: 1px solid #a5a5a5;
+}
+
+section:last-child {
+	border: none;
+}
+
+.about-me {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about-me-right img {
+	max-width: 300px;
+	max-height: 400px;
+}
+
+.education li:first-child {
+	font-style: italic;
+}
+
+.additional-information ul li:before {
+	content: '-';
+	position: relative;
+	left: -10px;
+}
