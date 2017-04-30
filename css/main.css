@@ -36,7 +36,6 @@ span {
 }
 
 section {
-	// margin-bottom: 30px;
 	border-bottom: 1px solid #a5a5a5;
 }
 
@@ -62,6 +61,10 @@ section:last-child {
 
 .skills ul li a {
 	color: #00beff;
+}
+
+.skills ul li a:before {
+	content: '- '
 }
 
 .additional-information ul li:before {
