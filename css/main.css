@@ -2,71 +2,73 @@ body {
 	font-size: 18px;
 	line-height: 27px;
 }
-
 .container {
 	max-width: 800px;
 	margin: 0 auto;
 }
-
 h1 {
 	font-size: 36px;
 	line-height: 1.2;
 }
-
 h2 {
 	font-size: 30px;
 	line-height: 1.2;
 	text-align: center;
 	margin: 20px 0 20px;
 }
-
 h3 {
 	font-size: 24px;
 	line-height: 1.2;
 	margin: 20px 0 10px;
 }
-
 a {
 	color: #000;
 	text-decoration: none;
 }
-
 span {
 	font-weight: bold;
 }
-
 section {
 	border-bottom: 1px solid #a5a5a5;
 }
-
+.skills-top,
+.skills-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.skills-top > div,
+.skills-bottom > div {
+	flex-basis: 25%;
+}
 section:last-child {
 	border: none;
 }
-
 .about-me {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
-
 .about-me-right img {
 	max-width: 300px;
 	max-height: 400px;
 }
-
 .education li:first-child {
 	font-style: italic;
 }
-
-.skills ul li a {
-	color: #00beff;
+.additional-education li {
+	margin-bottom: 10px;
+	font-style: italic;
 }
-
-.skills ul li a:before {
+.additional-education p {
+	font-style: normal;
+}
+.experience ul li a {
+	color: #408da8;
+}
+.experience ul li a:before {
 	content: '- '
 }
-
 .additional-information ul li:before {
 	content: '-';
 	position: relative;
